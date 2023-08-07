@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front End Developer Task</title>
+    <link rel="stylesheet" href="/assets/CSS/style.css" />
+  </head>
+
+  <body>
+    <nav class="content1">
+      <!-- first we create line within text -->
+      <h2 class="head"><span>Bundle & Save</span></h2>
+    </nav>
+    <!-- create a container for box model -->
+    <main class="container">
+      
+      <div class="box 1" id="b1">
+        <div style="display: flex">
+          <input
+            type="radio"
+            name="pair"
+            value="1pair"
+            onclick="triger('tt1','b1','p1')"
+          />
+          <div class="price"  style="padding: 10px; text-align: start;">
+            <h5 class="pair">1 Pair</h5>
+            <h4 id="p1">DKK 195.00</h4>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="off">50% OFF</h4>
+        </div>
+        <div class="table" id="tt1" style="display: none">
+          <table class="tableclone" style="empty-cells: hide">
+            <thead>
+              <tr>
+                <th></th>
+                <th>size</th>
+                <th>colour</th>
+              </tr>
+            </thead>
+            <tbody style="background-color: white">
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="size">s</option>
+                    <option value="small">s</option>
+                    <option value="medium">m</option>
+                    <option value="large">l</option>
+                    <option value="extra-large">xl</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="color" id="color">
+                    <option value="color">colour</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="box 2" id="b2">
+        <div style="display: flex">
+          <input
+            type="radio"
+            name="pair"
+            value="2pair"
+            onclick="triger('tt2','b2','p2')"
+          />
+          <div class="price"  style="padding: 10px; text-align: start;">
+            <h5 class="pair">2 Pair</h5>
+            <h4 id="p2">DKK 345.00</h4>
+          </div>
+        </div>
+        <h6
+          style="font-size: 10px; text-decoration: line-through; color: #b1aeae"
+        >
+          DKK 195.00
+        </h6>
+
+        <div class="price" style="padding: 10px">
+          <h5 style="font-size: 12px; color: #007f61">Most Popular</h5>
+          <h4>40% OFF</h4>
+        </div>
+
+        <div class="table" id="tt2" style="display: none">
+          <table class="tableclone" style="empty-cells: hide">
+            <thead>
+              <tr>
+                <th></th>
+                <th>size</th>
+                <th>colour</th>
+              </tr>
+            </thead>
+            <tbody style="background-color: white">
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="size">s</option>
+                    <option value="small">s</option>
+                    <option value="medium">m</option>
+                    <option value="large">l</option>
+                    <option value="extra-large">xl</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="color" id="color">
+                    <option value="color">colour</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="size">s</option>
+                    <option value="small">s</option>
+                    <option value="medium">m</option>
+                    <option value="large">l</option>
+                    <option value="extra-large">xl</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="color" id="color">
+                    <option value="color">colour</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="box 3" id="b3">
+        <div style="display: flex">
+          <input
+            type="radio"
+            name="pair"
+            value="3pair"
+            onclick="triger('tt3','b3','p3')"
+          />
+          <div class="price" align="left" style="padding: 10px">
+            <h5 class="pair">3 Pair</h5>
+            <h4 id="p3">DKK 528.00</h4>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="off">60% OFF</h4>
+        </div>
+        <div class="table" id="tt3" name="t3" style="display: none">
+          <table class="tableclone" style="empty-cells: hide">
+            <thead>
+              <tr>
+                <th></th>
+                <th>size</th>
+                <th>colour</th>
+              </tr>
+            </thead>
+            <tbody style="background-color: white">
+              <tr>
+                <td>#1</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="size">s</option>
+                    <option value="small">s</option>
+                    <option value="medium">m</option>
+                    <option value="large">l</option>
+                    <option value="extra-large">xl</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="color" id="color">
+                    <option value="color">colour</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="size">s</option>
+                    <option value="small">s</option>
+                    <option value="medium">m</option>
+                    <option value="large">l</option>
+                    <option value="extra-large">xl</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="color" id="color">
+                    <option value="color">colour</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>#3</td>
+                <td>
+                  <select name="size" id="size">
+                    <option value="size">s</option>
+                    <option value="small">s</option>
+                    <option value="medium">m</option>
+                    <option value="large">l</option>
+                    <option value="extra-large">xl</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="color" id="color">
+                    <option value="color">colour</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="box" style="display: flex">
+        <p>Free 2 Day Shipping</p>
+        <p class="total">Total : DKK 0.00</p>
+      </div>
+
+      <div class="box" style="justify-content: center">
+        <button onclick="add()">+ Add to Cart</button>
+      </div>
+      <div style="font-size: 12px">
+        <p class="copy" style="text-align: right">
+          &#169; <i>Powered by Pumper</i>
+        </p>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="/assets/JS/javscript.js"></script>
+  </body>
+</html>
